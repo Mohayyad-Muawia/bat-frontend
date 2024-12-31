@@ -492,6 +492,8 @@ body{
 
     .container{
         position: relative;
+        overflow: hidden;
+        height: 90vh;
     }
     .room-info{
         position: absolute;
@@ -522,6 +524,7 @@ body{
     .chat{
         margin: 0;
         width: 100vw;
+        height: 90vh;
         .bar{
             padding: 20px;
             .name{
