@@ -6,7 +6,7 @@ const InfoBar = ({ room, users }) => {
     <div className="bar">
       <div className="name" onClick={openInfo}>
         <img src="/logo.png" alt="logo" width={25} height={25} />
-        <h4>Lorem ipsum dolor sit amet.</h4>
+        <h4>{room}</h4>
       </div>
       <b>{users.length} online</b>
       <div className="leave">
