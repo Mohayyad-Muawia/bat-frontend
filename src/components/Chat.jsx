@@ -11,7 +11,7 @@ import ErrorPopup from "./ErrorPopup";
 let socket;
 
 const Chat = () => {
-  const API = "https://bat-u7tj.onrender.com";
+  const API = "https://api.bat.mohayyad.dev";
   const [name, setName] = useState("");
   const [room, setRoom] = useState("");
   const [color, setColor] = useState("");
